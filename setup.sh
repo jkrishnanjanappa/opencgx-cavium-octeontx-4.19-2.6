@@ -50,8 +50,8 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cgl.git;branch=mas
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=thud \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=thud;layer=meta-openstack \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl.git;branch=thud \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-x86-generic-4.19.git;branch=thud \
-MACHINE@x86-generic-64 \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.19.git;branch=master \
+MACHINE@cavium-octeontx \
 DISTRO@mvista-cgx \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.6.git;branch=mvl-4.19/msd.cgx \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/yocto-kernel-cache.git;branch=yocto-4.19 \

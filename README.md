@@ -1,12 +1,18 @@
-# Release repository for x86-generic-64
+# Release repository for cavium-octeontx
 
-Montavista Software, LLC. release of x86-generic-64. 
+Montavista Software, LLC. release of cavium-octeontx. 
+
+This BSP project supports the following Cavium HW:
+- OCTEON TX 81xx (SFF)
+- OCTEON TX 83xx (EVB)
+
+This release has not been tested on Cavium ThunderX/ThunderX2 Server class processors, but it does contain the required enabling code.
 
 How to use:
 ==========
 ```
-git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-x86-generic-64-4.14-2.6
-cd opencgx-x86-generic-64-4.14-2.6
+git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-octeontx-4.19-2.6
+cd opencgx-cavium-octeontx-4.19-2.6
 source setup.sh
 ```
 Optionally, you can pass setup.sh a directory name to use instead of the
@@ -39,10 +45,10 @@ poky/oe-init-build-env script.
 directory layout:
 ================
 ```
-opencgx-x86-generic-64-4.14-2.6/
-       project - bitbake project for the x86-generic-64 project build
+opencgx-cavium-octeontx-4.19-2.6/
+       project - bitbake project for the cavium-octeontx project build
        buildtools - build tools to provide minimal build requirement for poky builds
-       layers - layers for building x86-generic-64 project
+       layers - layers for building cavium-octeontx project
        setup.sh - project setup script
        bin - various helper applications for setting up and maintaining the release directory
 ```
